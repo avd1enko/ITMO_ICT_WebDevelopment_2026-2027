@@ -8,3 +8,8 @@ nav:
   - Главная: index.md
   - ЛР1:
       - Отчёт: lr1/report.md
+      
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
