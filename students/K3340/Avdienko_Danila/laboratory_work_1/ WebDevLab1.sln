@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpServer", "UdpServer\UdpS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpClient", "UdpClient\UdpClient.csproj", "{CED96FCF-1AF8-42D1-BDE7-2EE50774307D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpServer", "TcpServer\TcpServer.csproj", "{6A823A34-5D78-4C1F-BE12-FC0C4FAE887F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClient", "TcpClient\TcpClient.csproj", "{10B8F5A3-6D42-44E8-BC73-4E0604E85FA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{CED96FCF-1AF8-42D1-BDE7-2EE50774307D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CED96FCF-1AF8-42D1-BDE7-2EE50774307D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CED96FCF-1AF8-42D1-BDE7-2EE50774307D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A823A34-5D78-4C1F-BE12-FC0C4FAE887F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A823A34-5D78-4C1F-BE12-FC0C4FAE887F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A823A34-5D78-4C1F-BE12-FC0C4FAE887F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A823A34-5D78-4C1F-BE12-FC0C4FAE887F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B8F5A3-6D42-44E8-BC73-4E0604E85FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B8F5A3-6D42-44E8-BC73-4E0604E85FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B8F5A3-6D42-44E8-BC73-4E0604E85FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B8F5A3-6D42-44E8-BC73-4E0604E85FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
