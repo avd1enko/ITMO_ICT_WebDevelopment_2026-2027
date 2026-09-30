@@ -1,0 +1,1431 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Отчёт - Веб-программирование. Авдиенко Данила. K 3340</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-udp" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="Веб-программирование. Авдиенко Данила. K 3340" class="md-header__button md-logo" aria-label="Веб-программирование. Авдиенко Данила. K 3340" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Веб-программирование. Авдиенко Данила. K 3340
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Отчёт
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Веб-программирование. Авдиенко Данила. K 3340" class="md-nav__button md-logo" aria-label="Веб-программирование. Авдиенко Данила. K 3340" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Веб-программирование. Авдиенко Данила. K 3340
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ЛР1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-udp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическое задание 1. Обмен сообщениями по UDP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическое задание 1. Обмен сообщениями по UDP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Используемые пространства имён
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сервер
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Клиент
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическое задание 2. Вычисления через TCP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическое задание 2. Вычисления через TCP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сервер
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Клиент
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-html-http" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическое задание 3. Раздача HTML-страницы по HTTP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическое задание 3. Раздача HTML-страницы по HTTP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сервер
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-tcp-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задание 4. Многопользовательский TCP-чат
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задание 4. Многопользовательский TCP-чат">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы программы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-http-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задание 5. HTTP-сервер с журналом оценок
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задание 5. HTTP-сервер с журналом оценок">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы программы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-udp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическое задание 1. Обмен сообщениями по UDP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическое задание 1. Обмен сообщениями по UDP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Используемые пространства имён
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сервер
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Клиент
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическое задание 2. Вычисления через TCP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическое задание 2. Вычисления через TCP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сервер
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Клиент
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-html-http" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Практическое задание 3. Раздача HTML-страницы по HTTP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Практическое задание 3. Раздача HTML-страницы по HTTP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сервер
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-tcp-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задание 4. Многопользовательский TCP-чат
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задание 4. Многопользовательский TCP-чат">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы программы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-http-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задание 5. HTTP-сервер с журналом оценок
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задание 5. HTTP-сервер с журналом оценок">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы программы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Отчёт</h1>
+
+<h2 id="1-udp">Практическое задание 1. Обмен сообщениями по UDP</h2>
+<p>Для обмена сообщениями используется протокол UDP</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>UDP не устанавливает постоянное соединение между клиентом и сервером
+Данные передаются отдельными датаграммами</p>
+</div>
+<h3 id="_1">Используемые пространства имён</h3>
+<div class="highlight"><pre><span></span><code><span class="c1">// пространства имен</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Net</span><span class="p">;</span><span class="w"> </span><span class="c1">// ip-адреса и сетевые эндпоинты</span>
+</code></pre></div>
+<p>Классы связанные с обменом данными по сети</p>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Net.Sockets</span><span class="p">;</span><span class="w"> </span><span class="c1">// сокеты</span>
+</code></pre></div>
+<p><strong>Сокет</strong> — это программная точка, через которую приложение отправляет и получает данные по сети</p>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Text</span><span class="p">;</span><span class="w"> </span><span class="c1">// для кодировки текста в байты и обратно</span>
+</code></pre></div>
+<p>Нужно так как по сети передаются байты, а не текст/другие данные в чистом виде</p>
+<p><code>SocketType</code> задаёт модель передачи данных сокета. Для UDP используется <code>SocketType.Dgram</code>, так как данные передаются отдельными датаграммами</p>
+<h3 id="_2">Сервер</h3>
+<details class="info">
+<summary>Полный код сервера</summary>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Net</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Net.Sockets</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">serverSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Socket</span><span class="p">(</span>
+<span class="w">    </span><span class="n">AddressFamily</span><span class="p">.</span><span class="n">InterNetwork</span><span class="p">,</span>
+<span class="w">    </span><span class="n">SocketType</span><span class="p">.</span><span class="n">Dgram</span><span class="p">,</span>
+<span class="w">    </span><span class="n">ProtocolType</span><span class="p">.</span><span class="n">Udp</span>
+<span class="p">);</span>
+
+<span class="n">EndPoint</span><span class="w"> </span><span class="n">serverEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Loopback</span><span class="p">,</span><span class="w"> </span><span class="mi">11000</span><span class="p">);</span><span class="w"> </span><span class="c1">// здесь создаем эндпоинт (айпи+порт)</span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Bind</span><span class="p">(</span><span class="n">serverEndPoint</span><span class="p">);</span><span class="c1">// присваиваем сокет к адресу</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">""</span><span class="p">);</span>
+
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">buffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">byte</span><span class="p">[</span><span class="mi">1024</span><span class="p">];</span><span class="w"> </span><span class="c1">// список байтов, где будет побайтово храниться полученное сообщение</span>
+
+<span class="n">EndPoint</span><span class="w"> </span><span class="n">clientEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Any</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w"> </span><span class="c1">// создаем эндпоинт клиента (заглушка)</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">serverSocket</span><span class="p">.</span><span class="n">ReceiveFrom</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="k">ref</span><span class="w"> </span><span class="n">clientEndPoint</span><span class="p">);</span>
+<span class="kt">string</span><span class="w"> </span><span class="n">message</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">receivedBytes</span><span class="p">);</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$"Received: {message}"</span><span class="p">);</span>
+
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="s">"Hello, client"</span><span class="p">);</span>
+
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">SendTo</span><span class="p">(</span><span class="n">response</span><span class="p">,</span><span class="w"> </span><span class="n">clientEndPoint</span><span class="p">);</span>
+
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+</code></pre></div>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+</div>
+<p>Метод <code>ReceiveFrom()</code> записывает полученные данные в буфер,
+возвращает количество полученных байтов и сохраняет endpoint отправителя.</p>
+<p>Сервер привязывает UDP-сокет к <code>127.0.0.1:11000</code>, получает сообщение клиента и отправляет ответ на адрес отправителя.</p>
+<h3 id="_3">Клиент</h3>
+<details class="info">
+<summary>Полный код клиента</summary>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Net</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Net.Sockets</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">clientSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Socket</span><span class="p">(</span>
+<span class="w">    </span><span class="n">AddressFamily</span><span class="p">.</span><span class="n">InterNetwork</span><span class="p">,</span>
+<span class="w">    </span><span class="n">SocketType</span><span class="p">.</span><span class="n">Dgram</span><span class="p">,</span>
+<span class="w">    </span><span class="n">ProtocolType</span><span class="p">.</span><span class="n">Udp</span>
+<span class="p">);</span>
+
+<span class="n">IPEndPoint</span><span class="w"> </span><span class="n">serverEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Loopback</span><span class="p">,</span><span class="w"> </span><span class="mi">11000</span><span class="p">);</span>
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">message</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="s">"Привет, сервер!"</span><span class="p">);</span>
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">SendTo</span><span class="p">(</span><span class="n">message</span><span class="p">,</span><span class="w"> </span><span class="n">serverEndPoint</span><span class="p">);</span>
+
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">buffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">byte</span><span class="p">[</span><span class="mi">1024</span><span class="p">];</span>
+
+<span class="n">EndPoint</span><span class="w"> </span><span class="n">remoteEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Any</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">ReceiveFrom</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="k">ref</span><span class="w"> </span><span class="n">remoteEndPoint</span><span class="p">);</span>
+<span class="kt">string</span><span class="w"> </span><span class="n">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">receivedBytes</span><span class="p">);</span>
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$"Получено сообщение: {response}"</span><span class="p">);</span>
+
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+</code></pre></div>
+</details>
+<p>Клиент отправляет сообщение на endpoint сервера, после чего ожидает ответ и выводит его в консоль.
+На примере ниже клиент отправляет сообщение UDP-серверу и получает ответ<br />
+Сервер принимает сообщение клиента и отправляет ответ обратно</p>
+<h3 id="_4">Пример работы</h3>
+<p>Сервер:</p>
+<p><img alt="img_1.png" src="../media/img_1.png" /></p>
+<p>Клиент:
+<img alt="img.png" src="../media/img.png" /></p>
+<h2 id="2-tcp">Практическое задание 2. Вычисления через TCP</h2>
+<p>Для обмена данными используется протокол TCP.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+</div>
+<p>TCP устанавливает соединение между клиентом и сервером перед передачей данных.
+В отличие от UDP, TCP гарантирует доставку данных и сохранение порядка байтов.</p>
+<p>В данном варианте клиент отправляет серверу два катета прямоугольного треугольника. Сервер вычисляет гипотенузу по теореме Пифагора и возвращает результат клиенту.</p>
+<h3 id="_5">Сервер</h3>
+<details class="info">
+<summary>Полный код сервера</summary>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Net</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Net.Sockets</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">serverSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Socket</span><span class="p">(</span>
+<span class="w">    </span><span class="n">AddressFamily</span><span class="p">.</span><span class="n">InterNetwork</span><span class="p">,</span>
+<span class="w">    </span><span class="n">SocketType</span><span class="p">.</span><span class="n">Stream</span><span class="p">,</span><span class="w"> </span><span class="c1">// непрерывный поток байтов</span>
+<span class="w">    </span><span class="n">ProtocolType</span><span class="p">.</span><span class="n">Tcp</span>
+<span class="p">);</span>
+
+<span class="n">IPEndPoint</span><span class="w"> </span><span class="n">serverEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Loopback</span><span class="p">,</span><span class="w"> </span><span class="mi">11001</span><span class="p">);</span>
+
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Bind</span><span class="p">(</span><span class="n">serverEndPoint</span><span class="p">);</span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Listen</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"> </span><span class="c1">// переводим сокет в режим ожидания TCP-подключений</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"TCP сервер запущен на 127.0.0.1:11001"</span><span class="p">);</span>
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Ожидание клиента..."</span><span class="p">);</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">clientSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">serverSocket</span><span class="p">.</span><span class="n">Accept</span><span class="p">();</span><span class="w"> </span><span class="c1">// принимаем подключение клиента</span>
+
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">buffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">byte</span><span class="p">[</span><span class="mi">1024</span><span class="p">];</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Receive</span><span class="p">(</span><span class="n">buffer</span><span class="p">);</span>
+
+<span class="kt">string</span><span class="w"> </span><span class="n">message</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">receivedBytes</span><span class="p">);</span>
+
+<span class="kt">string</span><span class="p">[]</span><span class="w"> </span><span class="n">values</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">message</span><span class="p">.</span><span class="n">Split</span><span class="p">(</span><span class="sc">' '</span><span class="p">);</span>
+
+<span class="kt">double</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">double</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+<span class="kt">double</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">double</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+
+<span class="kt">double</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Math</span><span class="p">.</span><span class="n">Sqrt</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">b</span><span class="p">);</span>
+
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">c</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
+
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Send</span><span class="p">(</span><span class="n">response</span><span class="p">);</span>
+
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+</code></pre></div>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code>Listen()</code> переводит серверный сокет в режим прослушивания входящих TCP-подключений
+<code>Accept()</code> принимает подключение и создаёт отдельный сокет для взаимодействия с конкретным клиентом.</p>
+</div>
+<p>После установки TCP-соединения сервер получает два числа, вычисляет гипотенузу и отправляет результат обратно клиенту.</p>
+<h3 id="_6">Клиент</h3>
+<details class="info">
+<summary>Полный код клиента</summary>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Net</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Net.Sockets</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">clientSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Socket</span><span class="p">(</span>
+<span class="w">    </span><span class="n">AddressFamily</span><span class="p">.</span><span class="n">InterNetwork</span><span class="p">,</span>
+<span class="w">    </span><span class="n">SocketType</span><span class="p">.</span><span class="n">Stream</span><span class="p">,</span>
+<span class="w">    </span><span class="n">ProtocolType</span><span class="p">.</span><span class="n">Tcp</span>
+<span class="p">);</span>
+
+<span class="n">EndPoint</span><span class="w"> </span><span class="n">serverEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Loopback</span><span class="p">,</span><span class="w"> </span><span class="mi">11001</span><span class="p">);</span>
+
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Connect</span><span class="p">(</span><span class="n">serverEndPoint</span><span class="p">);</span><span class="w"> </span><span class="c1">// устанавливаем TCP-соединение с сервером</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">Write</span><span class="p">(</span><span class="s">"Введите первый катет: "</span><span class="p">);</span>
+<span class="kt">double</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">double</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">()</span><span class="o">!</span><span class="p">);</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">Write</span><span class="p">(</span><span class="s">"Введите второй катет: "</span><span class="p">);</span>
+<span class="kt">double</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">double</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">()</span><span class="o">!</span><span class="p">);</span>
+
+<span class="kt">string</span><span class="w"> </span><span class="n">message</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">$"{a} {b}"</span><span class="p">;</span>
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
+
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Send</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">buffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">byte</span><span class="p">[</span><span class="mi">1024</span><span class="p">];</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Receive</span><span class="p">(</span><span class="n">buffer</span><span class="p">);</span>
+
+<span class="kt">string</span><span class="w"> </span><span class="n">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">receivedBytes</span><span class="p">);</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$"Гипотенуза: {response}"</span><span class="p">);</span>
+
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+</code></pre></div>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+</div>
+<p>После коннекта клиентский сокет уже связан с сервером, поэтому для отправки используется <code>Send</code>, а не <code>SendTo</code> с указанием конкнретного энпоинта</p>
+<p>На примере ниже клиент передаёт серверу значения двух катетов<br />
+Сервер вычисляет длину гипотенузы и отправляет результат обратно клиенту</p>
+<h3 id="_7">Пример работы</h3>
+<p>Сервер:</p>
+<p><img alt="img.png" src="../media/imgTcp1.png" /></p>
+<p>Клиент:</p>
+<p><img alt="img.png" src="../media/imgTcp2.png" /></p>
+<h2 id="3-html-http">Практическое задание 3. Раздача HTML-страницы по HTTP</h2>
+<p>В данном задании реализуется простой HTTP-сервер. В качестве клиента используется браузер.</p>
+<div class="admonition note">
+<p class="admonition-title">HTTP поверх TCP</p>
+</div>
+<p>HTTP работает поверх TCP. TCP отвечает за передачу байтов между клиентом и сервером, а HTTP определяет формат и смысл передаваемых данных</p>
+<p>При открытии <code>http://127.0.0.1:8070</code> браузер устанавливает TCP-соединение с сервером и автоматически отправляет HTTP-запрос</p>
+<h3 id="_8">Сервер</h3>
+<details class="info">
+<summary>Полный код сервера</summary>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Net</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Net.Sockets</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">serverSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Socket</span><span class="p">(</span>
+<span class="w">    </span><span class="n">AddressFamily</span><span class="p">.</span><span class="n">InterNetwork</span><span class="p">,</span>
+<span class="w">    </span><span class="n">SocketType</span><span class="p">.</span><span class="n">Stream</span><span class="p">,</span>
+<span class="w">    </span><span class="n">ProtocolType</span><span class="p">.</span><span class="n">Tcp</span>
+<span class="p">);</span>
+
+<span class="n">IPEndPoint</span><span class="w"> </span><span class="n">serverEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Loopback</span><span class="p">,</span><span class="w"> </span><span class="mi">8070</span><span class="p">);</span><span class="w"> </span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Bind</span><span class="p">(</span><span class="n">serverEndPoint</span><span class="p">);</span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Listen</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"> </span><span class="c1">// бэклог (очередь) из одного</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"HTTP сервер запущен на http://127.0.0.1:8070"</span><span class="p">);</span>
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Ожидание запроса..."</span><span class="p">);</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">clientSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">serverSocket</span><span class="p">.</span><span class="n">Accept</span><span class="p">();</span><span class="w"> </span><span class="c1">// берем следующий из очереди</span>
+
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">requestBuffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">byte</span><span class="p">[</span><span class="mi">1024</span><span class="p">];</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Receive</span><span class="p">(</span><span class="n">requestBuffer</span><span class="p">);</span>
+
+<span class="kt">string</span><span class="w"> </span><span class="n">request</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">requestBuffer</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">receivedBytes</span><span class="p">);</span>
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$"Получен HTTP-запрос:\n{request}"</span><span class="p">);</span>
+
+<span class="kt">string</span><span class="w"> </span><span class="n">html</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">File</span><span class="p">.</span><span class="n">ReadAllText</span><span class="p">(</span><span class="s">"index.html"</span><span class="p">);</span><span class="w"> </span><span class="c1">// контент страницы считываем</span>
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">htmlBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">html</span><span class="p">);</span>
+
+<span class="c1">// вручную формируем HTTP-заголовки ответа</span>
+<span class="kt">string</span><span class="w"> </span><span class="n">headers</span><span class="w"> </span><span class="o">=</span>
+<span class="w">    </span><span class="s">"HTTP/1.1 200 OK\r\n"</span><span class="w"> </span><span class="o">+</span>
+<span class="w">    </span><span class="s">"Content-Type: text/html; charset=UTF-8\r\n"</span><span class="w"> </span><span class="o">+</span>
+<span class="w">    </span><span class="s">$"Content-Length: {htmlBytes.Length}\r\n"</span><span class="w"> </span><span class="o">+</span>
+<span class="w">    </span><span class="s">"Connection: close\r\n"</span><span class="w"> </span><span class="o">+</span>
+<span class="w">    </span><span class="s">"\r\n"</span><span class="p">;</span>
+
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">headers</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">html</span><span class="p">);</span>
+
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Send</span><span class="p">(</span><span class="n">response</span><span class="p">);</span>
+
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+</code></pre></div>
+</details>
+<div class="admonition note">
+<p class="admonition-title">HTTP-ответ</p>
+</div>
+<p>HTTP-ответ состоит из строки статуса, заголовков, пустой строки и тела ответа</p>
+<p>У нас сервер формирует следующие заголовки:</p>
+<div class="highlight"><pre><span></span><code>HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length
+Connection: close
+</code></pre></div>
+<ul>
+<li><code>200 OK</code> — запрос успешно обработан;</li>
+<li><code>Content-Type</code> — сервер передаёт HTML в кодировке UTF-8;</li>
+<li><code>Content-Length</code> — размер HTML-страницы в байтах;</li>
+<li><code>Connection: close</code> — после отправки ответа TCP-соединение закрывается.</li>
+</ul>
+<p>Последовательность <code>\r\n</code> используется для разделения строк HTTP-заголовков, а <code>\r\n\r\n</code> отделяет заголовки от тела ответа</p>
+<p>На примере ниже браузер отправляет GET-запрос HTTP-серверу<br />
+Сервер получает запрос и возвращает HTML-страницу, которая отображается в браузере</p>
+<h3 id="_9">Пример работы</h3>
+<p>HTTP-запрос в терминале сервера:</p>
+<p><img alt="img.png" src="../media/HttpServer.png" /></p>
+<h2 id="4-tcp-">Задание 4. Многопользовательский TCP-чат</h2>
+<p>Для реализации многопользовательского чата используется протокол TCP<br />
+Сервер принимает подключения клиентов, получает их имена и пересылает сообщения между подключёнными пользователями<br />
+В ходе выполнения задания был реализован многопользовательский чат с отдельной обработкой каждого клиента, рассылкой сообщений между пользователями и возможностью выхода из чата</p>
+<div class="admonition note">
+<p class="admonition-title">Многопоточность</p>
+<p>После подключения клиента сервер создаёт для него отдельный поток (тред)<br />
+Основной поток после этого возвращается к <code>Accept</code> и продолжает принимать новые подключения<br />
+В нашем коде каждый клиент обрабатывается независимо, и ожидание сообщения от одного пользователя не блокирует остальных</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Хранение подключённых клиентов</p>
+<p>Подключённые пользователи хранятся в <code>словаре</code>, где ключ это имя пользователя, а значение - его сокет<br />
+Поскольку словарь используется сразу несколькими потоками, доступ к нему синхронизируется через <code>lock</code></p>
+</div>
+<details class="info">
+<summary>Код сервера</summary>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Net</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Net.Sockets</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">serverSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Socket</span><span class="p">(</span>
+<span class="w">    </span><span class="n">AddressFamily</span><span class="p">.</span><span class="n">InterNetwork</span><span class="p">,</span>
+<span class="w">    </span><span class="n">SocketType</span><span class="p">.</span><span class="n">Stream</span><span class="p">,</span>
+<span class="w">    </span><span class="n">ProtocolType</span><span class="p">.</span><span class="n">Tcp</span>
+<span class="p">);</span>
+
+<span class="n">Dictionary</span><span class="o">&lt;</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="n">Socket</span><span class="o">&gt;</span><span class="w"> </span><span class="n">clients</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="p">();</span>
+<span class="kt">object</span><span class="w"> </span><span class="n">clientsLock</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="p">();</span>
+
+<span class="n">IPEndPoint</span><span class="w"> </span><span class="n">serverEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Loopback</span><span class="p">,</span><span class="w"> </span><span class="mi">11002</span><span class="p">);</span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Bind</span><span class="p">(</span><span class="n">serverEndPoint</span><span class="p">);</span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Listen</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Чат-сервер запущен на 127.0.0.1:11002"</span><span class="p">);</span>
+<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="k">true</span><span class="p">)</span><span class="w"> </span><span class="c1">// после подключения возвращаемся к аксепт и ждем новое подключение</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="n">Socket</span><span class="w"> </span><span class="n">clientSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">serverSocket</span><span class="p">.</span><span class="n">Accept</span><span class="p">();</span>
+<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$"Подключили клиент: {clientSocket.RemoteEndPoint}"</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Thread</span><span class="w"> </span><span class="n">clientThread</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Thread</span><span class="p">(()</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">HandleClient</span><span class="p">(</span><span class="n">clientSocket</span><span class="p">));</span><span class="w"> </span><span class="c1">// отдельный поток для каждого подключения (клиента)</span>
+<span class="w">    </span><span class="n">clientThread</span><span class="p">.</span><span class="n">Start</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="k">void</span><span class="w"> </span><span class="nf">HandleClient</span><span class="p">(</span><span class="n">Socket</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">)</span><span class="w"> </span><span class="c1">// принимаем имя клиента, обрабатываем его сообщения, отправляем другим клиентам</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">buffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">byte</span><span class="p">[</span><span class="mi">1024</span><span class="p">];</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Receive</span><span class="p">(</span><span class="n">buffer</span><span class="p">);</span>
+
+<span class="w">    </span><span class="kt">string</span><span class="w"> </span><span class="n">userName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Text</span><span class="p">.</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span>
+<span class="w">        </span><span class="n">buffer</span><span class="p">,</span>
+<span class="w">        </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">        </span><span class="n">receivedBytes</span>
+<span class="w">    </span><span class="p">);</span>
+<span class="w">    </span><span class="k">lock</span><span class="w"> </span><span class="p">(</span><span class="n">clientsLock</span><span class="p">)</span><span class="w"> </span><span class="c1">// блокируем доступ к коллекции clients:</span>
+<span class="w">    </span><span class="c1">// пока текущий поток находится внутри этого lock,то</span>
+<span class="w">    </span><span class="c1">// другие потоки не могут войти в блоки с тем же clientsLock</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">clients</span><span class="p">[</span><span class="n">userName</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$"Подключился пользователь: {userName}"</span><span class="p">);</span>
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="k">true</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Receive</span><span class="p">(</span><span class="n">buffer</span><span class="p">);</span>
+
+<span class="w">        </span><span class="kt">string</span><span class="w"> </span><span class="n">message</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span>
+<span class="w">            </span><span class="n">buffer</span><span class="p">,</span>
+<span class="w">            </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">            </span><span class="n">receivedBytes</span>
+<span class="w">        </span><span class="p">);</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">message</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">"/exit"</span><span class="p">)</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="k">break</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="kt">string</span><span class="w"> </span><span class="n">fullMessage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">$"{userName}: {message}"</span><span class="p">;</span>
+<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">fullMessage</span><span class="p">);</span>
+<span class="w">        </span><span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">messageBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">fullMessage</span><span class="p">);</span>
+
+<span class="w">        </span><span class="k">lock</span><span class="w"> </span><span class="p">(</span><span class="n">clientsLock</span><span class="p">)</span><span class="w"> </span><span class="c1">// ставим лок, чтобы во время перебора никто не записался в словарь</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="k">foreach</span><span class="w"> </span><span class="p">(</span><span class="kt">var</span><span class="w"> </span><span class="n">client</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">clients</span><span class="p">)</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">client</span><span class="p">.</span><span class="n">Value</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">)</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                    </span><span class="n">client</span><span class="p">.</span><span class="n">Value</span><span class="p">.</span><span class="n">Send</span><span class="p">(</span><span class="n">messageBytes</span><span class="p">);</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">lock</span><span class="w"> </span><span class="p">(</span><span class="n">clientsLock</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">clients</span><span class="p">.</span><span class="n">Remove</span><span class="p">(</span><span class="n">userName</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$"Пользователь {userName} вышел из чата"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Получение сообщений на клиенте</p>
+<p>Клиент должен одновременно принимать сообщения от сервера и ожидать ввод пользователя<br />
+Поэтому получение сообщений выполняется в отдельном потоке, а основной поток используется для отправки</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Рассылка сообщений</p>
+<p>Сервер перебирает словарь подключённых клиентов и отправляет сообщение всем сокетам кроме сокета отправителя<br />
+Благодаря этому сообщение одного пользователя получают остальные участники чата</p>
+</div>
+<details class="info">
+<summary>Код клиента</summary>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Net</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Net.Sockets</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">clientSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Socket</span><span class="p">(</span>
+<span class="w">    </span><span class="n">AddressFamily</span><span class="p">.</span><span class="n">InterNetwork</span><span class="p">,</span>
+<span class="w">    </span><span class="n">SocketType</span><span class="p">.</span><span class="n">Stream</span><span class="p">,</span>
+<span class="w">    </span><span class="n">ProtocolType</span><span class="p">.</span><span class="n">Tcp</span>
+<span class="p">);</span>
+
+<span class="n">EndPoint</span><span class="w"> </span><span class="n">serverEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Loopback</span><span class="p">,</span><span class="w"> </span><span class="mi">11002</span><span class="p">);</span>
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Connect</span><span class="p">(</span><span class="n">serverEndPoint</span><span class="p">);</span>
+
+<span class="c1">// считываем и отправляем серверу имя клиента</span>
+<span class="n">Console</span><span class="p">.</span><span class="n">Write</span><span class="p">(</span><span class="s">"Введите имя: "</span><span class="p">);</span>
+<span class="kt">string</span><span class="w"> </span><span class="n">userName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">()</span><span class="o">!</span><span class="p">;</span>
+<span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">nameBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Text</span><span class="p">.</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">userName</span><span class="p">);</span>
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Send</span><span class="p">(</span><span class="n">nameBytes</span><span class="p">);</span>
+
+<span class="n">Thread</span><span class="w"> </span><span class="n">receiveThread</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Thread</span><span class="p">(()</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">ReceiveMessages</span><span class="p">(</span><span class="n">clientSocket</span><span class="p">));</span>
+<span class="n">receiveThread</span><span class="p">.</span><span class="n">Start</span><span class="p">();</span>
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Подключение к чат-серверу установлено"</span><span class="p">);</span>
+
+<span class="c1">// отправляем сообщения на сервер</span>
+<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="k">true</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">string</span><span class="w"> </span><span class="n">message</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">()</span><span class="o">!</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">messageBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
+<span class="w">    </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Send</span><span class="p">(</span><span class="n">messageBytes</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">message</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">"/exit"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="k">break</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">clientSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+
+<span class="k">void</span><span class="w"> </span><span class="nf">ReceiveMessages</span><span class="p">(</span><span class="n">Socket</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">)</span><span class="w"> </span><span class="c1">// метод для получения сообщений от других клиентов</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">buffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">byte</span><span class="p">[</span><span class="mi">1024</span><span class="p">];</span>
+<span class="w">    </span><span class="k">try</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="k">true</span><span class="p">)</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Receive</span><span class="p">(</span><span class="n">buffer</span><span class="p">);</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">                </span><span class="k">break</span><span class="p">;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">            </span><span class="kt">string</span><span class="w"> </span><span class="n">message</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span>
+<span class="w">                </span><span class="n">buffer</span><span class="p">,</span>
+<span class="w">                </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                </span><span class="n">receivedBytes</span>
+<span class="w">            </span><span class="p">);</span>
+<span class="w">            </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">SocketException</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<p>В итоге получили многопользовательский TCP-чат, в котором несколько клиентов могут одновременно подключаться к серверу,
+отправлять сообщения всем другим пользователям и завершать соединение с помощью команды <code>/exit</code></p>
+<h3 id="_10">Пример работы программы</h3>
+<p>На примере ниже к серверу одновременно подключены два клиента с разными именами<br />
+Сообщения одного пользователя передаются другому через сервер</p>
+<p><img alt="img.png" src="../media/CLIChat1.png" />
+<img alt="img.png" src="../media/CLIChat2.png" /></p>
+<h2 id="5-http-">Задание 5. HTTP-сервер с журналом оценок</h2>
+<p>В этом задании был реализован простой журнал оценок на HTTP-сервере<br />
+Сервер принимает <code>GET</code> и <code>POST</code> запросы, хранит оценки в словаре и формирует HTML-страницу с текущими записями</p>
+<div class="admonition note">
+<p class="admonition-title">GET и POST</p>
+<p><code>GET</code> используется для получения страницы журнала<br />
+При гет-запросе сервер берет текущие записи из словаря, добавляет их в HTML и отправляет страницу браузеру</p>
+<p><code>POST</code> используется для добавления новой оценки<br />
+Браузер отправляет серверу название предмета и оценку из HTML-формы, после чего сервер сохраняет их в словарь</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Тело POST-запроса</p>
+<p>Заголовки HTTP-запроса отделяются от его тела через <code>\r\n\r\n</code><br />
+В теле POST-запроса приходят данные формы в формате <code>subject=Math&amp;grade=10</code>
+Тело POST-запроса не приходило в первом <code>Receive</code>, поэтому пришлось делать еще один <code>Receive</code> и дочитывает его</p>
+</div>
+<details class="info">
+<summary>Код сервера</summary>
+<div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Net</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Net.Sockets</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="n">Socket</span><span class="w"> </span><span class="n">serverSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Socket</span><span class="p">(</span>
+<span class="w">    </span><span class="n">AddressFamily</span><span class="p">.</span><span class="n">InterNetwork</span><span class="p">,</span>
+<span class="w">    </span><span class="n">SocketType</span><span class="p">.</span><span class="n">Stream</span><span class="p">,</span>
+<span class="w">    </span><span class="n">ProtocolType</span><span class="p">.</span><span class="n">Tcp</span>
+<span class="p">);</span>
+<span class="n">Dictionary</span><span class="o">&lt;</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">grades</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="p">();</span><span class="w"> </span><span class="c1">// словарь для записей</span>
+<span class="n">EndPoint</span><span class="w"> </span><span class="n">serverEndPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">IPEndPoint</span><span class="p">(</span><span class="n">IPAddress</span><span class="p">.</span><span class="n">Loopback</span><span class="p">,</span><span class="w"> </span><span class="mi">8071</span><span class="p">);</span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Bind</span><span class="p">(</span><span class="n">serverEndPoint</span><span class="p">);</span>
+<span class="n">serverSocket</span><span class="p">.</span><span class="n">Listen</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"HTTP сервер запущен на http://127.0.0.1:8071"</span><span class="p">);</span>
+
+<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="k">true</span><span class="p">)</span><span class="w"> </span><span class="c1">// цикл обработки подключения и его get/post запросов</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="n">Socket</span><span class="w"> </span><span class="n">clientSocket</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">serverSocket</span><span class="p">.</span><span class="n">Accept</span><span class="p">();</span><span class="c1">// принимаем новое TCP-соединение</span>
+<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$"Подключился клиент: {clientSocket.RemoteEndPoint}"</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">buffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">byte</span><span class="p">[</span><span class="mi">4096</span><span class="p">];</span><span class="w"> </span><span class="c1">// буфер для полученного HTTP-запроса</span>
+
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Receive</span><span class="p">(</span><span class="n">buffer</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">string</span><span class="w"> </span><span class="n">request</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">receivedBytes</span><span class="p">);</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">request</span><span class="p">.</span><span class="n">StartsWith</span><span class="p">(</span><span class="s">"POST"</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">request</span><span class="p">.</span><span class="n">Split</span><span class="p">(</span><span class="s">"\r\n\r\n"</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">""</span><span class="p">)</span><span class="w"> </span><span class="c1">// если POST пришёл без тела, то дочитываем его отдельно</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">receivedBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Receive</span><span class="p">(</span><span class="n">buffer</span><span class="p">);</span>
+<span class="w">        </span><span class="n">request</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">receivedBytes</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">request</span><span class="p">.</span><span class="n">StartsWith</span><span class="p">(</span><span class="s">"GET"</span><span class="p">))</span><span class="w"> </span><span class="c1">// get-request</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="kt">string</span><span class="w"> </span><span class="n">gradeList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">""</span><span class="p">;</span><span class="w"> </span><span class="c1">// создаем строку для передачи в html-код</span>
+<span class="w">        </span><span class="k">foreach</span><span class="w"> </span><span class="p">(</span><span class="kt">var</span><span class="w"> </span><span class="n">subject</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">grades</span><span class="p">)</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="n">gradeList</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s">$"&lt;p&gt;{subject.Key}: {string.Join("</span><span class="p">,</span><span class="w"> </span><span class="s">", subject.Value)}&lt;/p&gt;"</span><span class="p">;</span><span class="w"> </span><span class="c1">// циклом создаем строки из всех записей словаря </span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="kt">string</span><span class="w"> </span><span class="n">html</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">$"""</span>
+<span class="s">                      &lt;!DOCTYPE html&gt;</span>
+<span class="s">                      &lt;html lang="ru"&gt;</span>
+<span class="s">                      &lt;head&gt;</span>
+<span class="s">                          &lt;meta charset="UTF-8"&gt;</span>
+<span class="s">                          &lt;title&gt;Журнал оценок&lt;/title&gt;</span>
+<span class="s">                      &lt;/head&gt;</span>
+<span class="s">                      &lt;body&gt;</span>
+<span class="s">                          &lt;h1&gt;Журнал оценок&lt;/h1&gt;</span>
+<span class="s">                          {gradeList}</span>
+<span class="s">                          &lt;form method="POST" action="/grade"&gt;</span>
+<span class="s">                              &lt;label&gt;Предмет:&lt;/label&gt;</span>
+<span class="s">                              &lt;input type="text" name="subject"&gt;</span>
+
+<span class="s">                              &lt;label&gt;Оценка:&lt;/label&gt;</span>
+<span class="s">                              &lt;input type="number" name="grade"&gt;</span>
+
+<span class="s">                              &lt;button type="submit"&gt;Добавить&lt;/button&gt;</span>
+<span class="s">                          &lt;/form&gt;</span>
+<span class="s">                      &lt;/body&gt;</span>
+<span class="s">                      &lt;/html&gt;</span>
+<span class="s">                      """</span><span class="p">;</span>
+
+<span class="w">        </span><span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">htmlBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">html</span><span class="p">);</span>
+
+<span class="w">        </span><span class="kt">string</span><span class="w"> </span><span class="n">headers</span><span class="w"> </span><span class="o">=</span>
+<span class="w">            </span><span class="s">"HTTP/1.1 200 OK\r\n"</span><span class="w"> </span><span class="o">+</span>
+<span class="w">            </span><span class="s">"Content-Type: text/html; charset=UTF-8\r\n"</span><span class="w"> </span><span class="o">+</span>
+<span class="w">            </span><span class="s">$"Content-Length: {htmlBytes.Length}\r\n"</span><span class="w"> </span><span class="o">+</span>
+<span class="w">            </span><span class="s">"Connection: close\r\n"</span><span class="w"> </span><span class="o">+</span>
+<span class="w">            </span><span class="s">"\r\n"</span><span class="p">;</span>
+
+<span class="w">        </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Send</span><span class="p">(</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">headers</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">html</span><span class="p">));</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="nf">if</span><span class="w"> </span><span class="p">(</span><span class="n">request</span><span class="p">.</span><span class="n">StartsWith</span><span class="p">(</span><span class="s">"POST"</span><span class="p">))</span><span class="w"> </span><span class="c1">// обработка пост-запроса</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="kt">string</span><span class="w"> </span><span class="n">body</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">request</span><span class="p">.</span><span class="n">Split</span><span class="p">(</span><span class="s">"\r\n\r\n"</span><span class="p">)[</span><span class="mi">1</span><span class="p">];</span><span class="w"> </span><span class="c1">// получаем тело запроса</span>
+<span class="w">        </span><span class="kt">string</span><span class="p">[]</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">body</span><span class="p">.</span><span class="n">Split</span><span class="p">(</span><span class="sc">'&amp;'</span><span class="p">);</span><span class="w"> </span><span class="c1">// получаем отдельно поля subject и grade</span>
+
+<span class="w">        </span><span class="kt">string</span><span class="w"> </span><span class="n">subject</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">Split</span><span class="p">(</span><span class="sc">'='</span><span class="p">)[</span><span class="mi">1</span><span class="p">];</span><span class="w"> </span><span class="c1">// парсим значения полей</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">grade</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">int</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">Split</span><span class="p">(</span><span class="sc">'='</span><span class="p">)[</span><span class="mi">1</span><span class="p">]);</span>
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">grades</span><span class="p">.</span><span class="n">ContainsKey</span><span class="p">(</span><span class="n">subject</span><span class="p">))</span><span class="w"> </span><span class="c1">// создаем новую запись при необходимости</span>
+<span class="w">            </span><span class="n">grades</span><span class="p">[</span><span class="n">subject</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">();</span>
+
+<span class="w">        </span><span class="n">grades</span><span class="p">[</span><span class="n">subject</span><span class="p">].</span><span class="n">Add</span><span class="p">(</span><span class="n">grade</span><span class="p">);</span>
+
+<span class="w">        </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Send</span><span class="p">(</span><span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="w"> </span><span class="c1">// отправляем браузеру команду заново открыть стартовую страницу</span>
+<span class="w">            </span><span class="s">"HTTP/1.1 303 See Other\r\nLocation: /\r\n\r\n"</span>
+<span class="w">        </span><span class="p">));</span>
+<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">body</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">clientSocket</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Перенаправление после POST</p>
+<p>После добавления оценки сервер отвечает кодом <code>303 See Other</code> и передает <code>Location: /</code><br />
+После этого браузер снова делает <code>GET /</code> и показывает уже обновленный журнал</p>
+</div>
+<p>В итоге получили простой HTTP-сервер, работающий с двумя методами для добавления оценок и их просмотра</p>
+<h3 id="_11">Пример работы программы</h3>
+<p><img alt="img.png" src="../media/CLIWebServer.png" />
+<img alt="img.png" src="../media/HtmlWebServer.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
